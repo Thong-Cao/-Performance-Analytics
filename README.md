@@ -100,6 +100,56 @@ Based on the defined KPIs, data processing involves checking for null values, du
 
 ## Data Visualization
 
-Using **Power BI** for data visualization to track performance and user demographics:
+Using **Power BI** for building dashboard to track performance and user demographics.  
+
 ![chart1](img/img1.png)
 ![chart2](img/img2.png)
+
+## Analysis and Insights
+Through analyzing the historical daily transaction data from January to December 2020, it is evident that Mobile Topup service is a significant revenue driver. Key findings include:
+### 📊 Transaction Behavior
+- **Total Transactions**: 13,000 (Jan-Dec 2020)
+- **Total Sales**: 19 million VND
+- **Average Revenue/Transaction**: 1,400 VND
+- **Return on Sales**: 2.69%
+
+**Monthly Trends**:
+- **Highest**: December (1,255 transactions)
+- **Lowest**: February (972 transactions)
+- **Trend**: Upward from 972 to 1,255
+
+**Weekly Trends**:
+- **Peak Day**: Wednesday (1,900+ transactions)
+- **Lowest Day**: Sunday (1,600+ transactions)
+
+**Transaction Amounts**:
+- **Most Frequent**: 20,000 VND (24.88%), 10,000 VND (24%)
+- **Others**: 50,000 VND (23%), 100,000 VND (16.5%)
+
+**Service Providers**:
+- **Viettel**: 50.22%
+- **Mobifone**: 28%
+- **Vinaphone**: 17.2%
+- **Others**: 4.5%
+
+### 👥 User Demographics
+- **Total Users**: ~13,000
+- **New Users**: ~1,000
+- **Average Sales/User**: 51,000 VND
+- **Average Revenue/User**: 1,400 VND
+
+**Gender Distribution**:
+- **Male**: 58.22%
+- **Female**: 41.78%
+
+**Age Groups**:
+- **23-27 years**: 25.5%
+- **28-32 years**: 20.85%
+
+**Regional Insights**:
+- **Highest Revenue/User**: Ho Chi Minh City
+  - **Returning Customers**: 1,500 VND
+  - **New Customers**: 1,134 VND
+
+
+
