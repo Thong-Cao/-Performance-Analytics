@@ -10,7 +10,6 @@
 ## Overview
 
 This project analyzes the performance of a **top-up service** provided by **e-wallet companies**. These services allow users to add money to their e-wallets, and the e-wallet providers earn commissions from Telco merchants for each transaction.
-
 This is a personal project to showcase my data processing and visualization skills, identifying key performance indicators (**KPIs**) and deriving insights from the dataset.
 
 ### Analysis Steps:
@@ -102,5 +101,5 @@ Based on the defined KPIs, data processing involves checking for null values, du
 ## Data Visualization
 
 Using **Power BI** for data visualization to track performance and user demographics:
-![chart1](img/chart1.jpg)
-![chart2](img/chart2.jpg)
+![chart1](img/img1.png)
+![chart2](img/img2.png)
