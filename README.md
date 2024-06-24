@@ -24,34 +24,51 @@ This is a personal project to showcase my data processing and visualization skil
 
 The top-up service data includes daily transactions (table '**Transactions**'), user demographic information (table '**User_info**'), and the commission percentage paid by Telco merchants (table '**Commission**').
 
-**Transactions:**
+<div style="display: flex; justify-content: space-between;">
+
+<div>
+
+### Transactions:
 
 | **Field**           | **Description**                                  |
 |---------------------|--------------------------------------------------|
-| `User_id`           | Unique ID for each user                          |
-| `Order_id`          | Unique ID for each transaction                   |
-| `Date`              | Date of the transaction                          |
-| `Amount`            | Transaction amount (VND)                         |
-| `Merchant_id`       | Unique ID for each merchant                      |
-| `Purchase_status`   | Label 'Mua hộ' if the user buys a card for another user |
+| User_id           | Unique ID for each user                          |
+| Order_id          | Unique ID for each transaction                   |
+| Date              | Date of the transaction                          |
+| Amount            | Transaction amount (VND)                         |
+| Merchant_id       | Unique ID for each merchant                      |
+| Purchase_status   | Label 'Mua hộ' if the user buys a card for another user |
 
-**Commission:**
+</div>
 
-| **Field**           | **Description**                                  |
-|---------------------|--------------------------------------------------|
-| `Merchant_name`     | Telco name                                       |
-| `Merchant_id`       | Unique ID for each merchant                      |
-| `Rate_pct`          | Commission percentage (%) for each transaction amount |
+<div>
 
-**User_Info:**
+### Commission:
 
 | **Field**           | **Description**                                  |
 |---------------------|--------------------------------------------------|
-| `User_id`           | Unique ID for each user                          |
-| `First_tran_date`   | First day of using the top-up service            |
-| `Gender`            | Male/Female                                      |
-| `Age`               | Age groups                                       |
-| `Location`          | Location on the ID card                          |
+| Merchant_name     | Telco name                                       |
+| Merchant_id       | Unique ID for each merchant                      |
+| Rate_pct          | Commission percentage (%) for each transaction amount |
+
+</div>
+
+<div>
+
+### User_Info:
+
+| **Field**           | **Description**                                  |
+|---------------------|--------------------------------------------------|
+| User_id           | Unique ID for each user                          |
+| First_tran_date   | First day of using the top-up service            |
+| Gender            | Male/Female                                      |
+| Age               | Age groups                                       |
+| Location          | Location on the ID card                          |
+
+</div>
+
+</div>
+
 
 ## Problem Statements
 
@@ -87,5 +104,3 @@ Based on the defined KPIs, data processing involves checking for null values, du
 Using **Power BI** for data visualization to track performance and user demographics:
 ![chart1](img/chart1.jpg)
 ![chart2](img/chart2.jpg)
-
-
