@@ -9,8 +9,7 @@
 
 ## Overview
 
-This project analyzes the performance of a **top-up service** provided by **e-wallet companies**. These services allow users to add money to their e-wallets, and the e-wallet providers earn commissions from Telco merchants for each transaction.
-This is a personal project to showcase my data processing and visualization skills, identifying key performance indicators (**KPIs**) and deriving insights from the dataset.
+This my personal project to analyzes the performance of a **top-up service** provided by **e-wallet companies**. These services allow users to add money to their e-wallets, and the e-wallet providers earn commissions from Telco merchants for each transaction.
 
 ### Analysis Steps:
 1. **Exploring the dataset:** Understanding the business model and all dataset fields.
@@ -73,10 +72,10 @@ The top-up service data includes daily transactions (table '**Transactions**'), 
 
 Before the analysis, I explored the data to gain a comprehensive understanding. From this exploration, I defined the following problems to solve:
 
-1. What is the **monthly transaction count** and **revenue**?
-2. Which locations have the **most transactions**?
-3. Which Telco merchant dominates the **top-up market in Vietnam**, and which denominations are **most popular**?
-4. What is the **total number of users**, and how many are **new versus returning users**?
+1. What is the **monthly transaction count** and **revenue** ?
+2. Which locations have the **most transactions** ?
+3. Which Telco merchant dominates the **top-up market in Vietnam**, and which denominations are **most popular** ?
+4. What is the **total number of users**, and how many are **new versus returning users** ?
 
 ### KPIs for Analysis:
 
