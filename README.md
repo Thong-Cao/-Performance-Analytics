@@ -1,6 +1,5 @@
 <h1 align="center">
-  <br>
-  <span style="color: #2E86C1;">Top-Up Service Performance Analysis</span>
+<span style="color: #2E86C1;">Top-Up Service Performance Analysis</span>
   <br>
 </h1>
 <h4 align="center">
